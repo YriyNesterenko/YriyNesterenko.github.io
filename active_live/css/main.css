@@ -1,0 +1,559 @@
+/* ----- Specification ----- */
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: #6c7279;
+}
+
+
+.container-fluid_plain {
+	padding: 0;	
+}
+
+
+.btn:focus {
+	box-shadow: none;
+}
+
+h1,h2,h3,h4 {
+	font-weight: 700;
+}
+
+h1 {
+	font-size: 45px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 28px;
+	color: #2d3033;
+}
+
+h3 {
+	font-size: 22px;
+	color: #2d3033;
+}
+
+h4 {
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #2d3033;
+}
+
+ul {
+	list-style: none;
+}
+
+ul,li {
+	padding: 0;
+	margin: 0;
+}
+
+.btn {
+	font-size: 13px;
+	font-weight: 700;
+	color: #fff;
+	text-transform: uppercase;
+	width: 200px;
+	padding: 12px 0 12px;
+	margin: 70px auto 0;
+	color: #fff;
+	background: #e84545;
+	border: 1px solid #e84545;
+	border-radius: 3px;
+}
+
+.btn:hover {
+	color: #e84545;
+	background: transparent;
+	border: 1px solid #e84545;
+}
+
+.btn:active {
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2) inset;
+	transition: all 0.2s ease;
+}
+
+.btn,
+.project__overlay,
+.card__icon {
+	transition: all 0.5s ease;
+}
+
+/* ----- Header ----- */
+
+.header {
+	padding-bottom: 244px;
+	background: #34353f url('../img/bg.jpg') no-repeat center top / cover;
+}
+
+.logo {
+	font-size: 30px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.logo__link {
+	color: #626fe4;
+}
+
+.logo__link:hover {
+	text-decoration: none;
+	color: #626fe4;
+}
+
+.logo span {
+	font-weight: normal;
+	color: #fff;
+}
+
+.nav__list {
+	margin-left: auto;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.nav__link {
+	display: block;
+	color: #fff;
+	padding: 40px 30px;
+}
+
+.nav__link:hover {
+	color: #fff;
+	text-decoration: none;
+	padding-bottom: 38px;
+	border-bottom: 2px solid #9a9a9f;
+}
+
+.offer {
+	text-align: center;
+	padding-top: 181px;
+	border-top: 1px solid #53545c;
+}
+
+.offer__text {
+	font-size: 22px;
+	color: #fff;
+	width: 570px;
+	margin: 29px auto;
+}
+
+/* ----- Advantages ----- */
+
+.advantages {
+	padding-top: 120px;
+}
+
+.advantage {
+	text-align: center;
+	margin-bottom: 71px;
+}
+
+.advantage__icon_tools {
+	background: url('../img/tools.png') no-repeat;
+}
+
+.advantage__icon_atom {
+	background: url('../img/atom.png') no-repeat;
+}
+
+.advantage__icon_monitor {
+	background: url('../img/monitor.png') no-repeat;
+}
+
+.advantage__icon_case {
+	background: url('../img/case.png') no-repeat;
+}
+
+.advantage__icon_lamp {
+	background: url('../img/lamp.png') no-repeat;
+}
+
+.advantage__icon_cloud {
+	background: url('../img/cloud.png') no-repeat;
+}
+
+.advantage__icon {
+	width: 79px;
+	height: 63px;
+	margin: 0 auto;
+	background-position: center center;
+}
+
+.advantage__title {
+	margin: 29px 0 18px;
+}
+
+.advantage__text {
+	width: 290px;
+}
+
+/* ----- Projects ----- */
+
+.projects {
+	padding: 50px 0 123px;
+}
+
+.project {
+	position: relative;
+	width: 270px;
+	margin-bottom: 14px;
+}
+
+.project__link {
+	display: block;
+}
+
+.project__img {
+	display: block;
+	width: 100%;
+}
+
+.project__title {
+	color: #fff;
+	margin-top: 15px;
+}
+
+.project__text {
+	color: #fff;
+}
+
+.project__overlay {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+	cursor: pointer;
+	width: 100%;
+	height: 100%;
+	background: rgba(232,85,85, 0.9);
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	transition: all 0.5s ease;
+}
+
+.project:hover .project__overlay {
+	opacity: 1;
+}
+
+/* ----- Cards ----- */
+
+.cards {
+	padding: 125px 0 117px;
+	background: #f1f2fd;
+}
+
+.card {
+	background: #f1f2fd;
+	border: none;
+}
+
+.card__img {
+	width: 100%;
+}
+
+.card__title {
+	margin: 41px 0 6px;
+}
+
+.card__prof {
+	font-size: 13px;
+	text-transform: uppercase;
+	color: #e84545;
+}
+
+.card__text {
+	margin: 20px 0 26px;
+}
+
+.card__icon {
+	width: 40px;
+	height: 40px;
+	font-size: 15px;
+	text-align: center;
+	padding-top: 8px;
+	margin-right: 4px;
+	color: #c6cacc;
+	background: #fff;
+	border: 1px solid #e8ecee;
+}
+
+.card__icon_fb:hover {
+	color: #fff;
+	background: #4267b2;
+}
+
+.card__icon_tw:hover {
+	color: #fff;
+	background: #1da1f2;
+}
+
+.card__icon_in:hover {
+	color: #fff;
+	background: #4267b2;
+}
+
+/* ----- Susan-quote ----- */
+
+.susan-img {
+	background: url('../img/susan.jpg') no-repeat right center;
+}
+
+.quote {
+	width: 100%;
+	padding: 130px 0 125px 82px;
+	background: #53354a;
+}
+
+.susan-img {
+	height: 500px;
+}
+
+.quote__text {
+	width: 510px;
+	font-size: 36px;
+	font-weight: 400;
+	font-style: italic;
+	line-height: 1.2em;
+	color: #fff;
+	margin-bottom: 25px;
+}
+
+.quote__prof {
+	font-size: 13px;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+/* ----- Download ----- */
+
+.ready {
+	text-align: center;
+	padding: 93px 0 98px;
+}
+
+.ready__text {
+	text-transform: uppercase;
+	font-size: 13px;
+	color: #2d3033;
+	margin: 10px 0 37px;
+}
+
+.ready__btn {
+	width: 280px;
+}
+
+/* ----- Footer ----- */
+
+.footer {
+	padding: 89px 0 46px;
+	background: #3a3e64;
+	border-bottom: 13px solid #313454;
+}
+
+.footer__info {
+	text-align: center;
+}
+
+.footer__title {
+	text-transform: uppercase;
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+.footer__text {
+	color: #adaebb;
+}
+
+.footer__text span {
+	color: #fff;
+}
+
+.footer__text_copy {
+	color: #808080;
+}
+
+span.footer__letter {
+	color: #e84545;
+}
+
+/* ----- Media Queries ----- */
+
+/* 992-1200px */
+
+@media screen and (max-width: 1199px) {
+
+	.project {
+		width: 100%;
+		margin-bottom: 28px;
+	}
+
+	.susan-img {
+		background-position: 75% center;
+	}
+
+	.quote {
+		padding-left: 40px;
+	}
+}
+
+/* 768-992px */
+
+@media screen and (max-width: 991px) {
+
+	.header {
+		padding-bottom: 120px;
+	}
+
+	.logo {
+		text-align: center;
+		margin-top: 30px;
+	}
+
+	.nav__list {
+		width: 100%;
+		justify-content: space-between;
+	}
+
+	.offer {
+		padding-top: 85px;
+	}
+
+	.advantages {
+		padding-top: 65px;
+	}
+
+	.advantage__text {
+		width: 95%;
+    	margin: 0 auto;
+	}
+
+	.projects {
+		padding-bottom: 40px;
+	}
+
+	.cards {
+		padding: 80px 0 20px;
+	}
+
+	.card {
+		margin-bottom: 40px;
+	}
+
+	.quote__text {
+		width: 90%;
+		font-size: 32px;
+	}
+
+	.footer__info {
+		margin-bottom: 40px;
+	}
+
+	.footer__title {
+		margin-bottom: 8px;
+	}
+}
+
+/* 576-768px */
+
+@media screen and (max-width: 767px) {
+
+	.logo {
+		margin-bottom: 10px;
+	}
+
+	h1 {
+		font-size: 40px;
+	}
+
+	.offer__text {
+		width: 100%;
+	}
+
+	.projects {
+		padding: 0 0 30px;
+	}
+
+	.btn {
+		margin-top: 30px;
+	}
+
+	.cards {
+		padding: 50px 0 20px;
+	}
+
+	.susan-img {
+		background-position: right center;
+	}
+
+	.quote {
+		padding: 35px 0 55px 40px;
+	}
+}
+
+/* 320-576px */
+
+@media screen and (max-width: 575px) {
+
+	.logo {
+		font-size: 24px;
+	}
+
+	h1 {
+		font-size: 34px;
+	}
+
+	.offer__text {
+		font-size: 17px;
+	}
+
+	.projects {
+		padding: 0 0 30px;
+	}
+
+	.project {
+		width: 85%;
+	    margin: 0 auto 30px;
+    }
+
+	.cards {
+		padding-bottom: 10px;
+	}
+
+	.card {
+		width: 85%;
+    	margin: 0 auto 40px;
+	}
+
+	.susan-img {
+		height: 430px;
+		background-position: 80% center;
+	}
+
+	.ready {
+		padding: 60px 0 70px;
+	}
+
+	.quote__text {
+		width: 90%;
+		font-size: 25px;
+	}
+
+	.quote__prof {
+		font-size: 12px;
+	}
+
+	h2 {
+		font-size: 26px;
+	}
+
+	.ready__btn {
+		width: 200px;
+	}
+}
