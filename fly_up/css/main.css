@@ -1,0 +1,483 @@
+/* ---- Specification ---- */
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	color: #000;
+	padding: 0;
+	margin: 0;
+}
+
+div,p,ul,li,form,input,textarea,a,span,button {
+	box-sizing: border-box;
+}
+
+ul,li,input,button {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	padding: 0;
+	margin: 0;
+}
+
+h1 {
+	width: 540px;
+	margin: 22px 0 29px;
+	font-size: 45px;
+	font-weight: 900;
+	color: #1b3bde;
+}
+
+h2 {
+	font-size: 28px;
+	font-weight: 900;
+}
+
+h3 {
+	font-size: 19px;
+	font-weight: 900;
+}
+
+h4 {
+	font-size: 17px;
+	font-weight: 900;
+}
+
+p {
+	padding: 0;
+	margin: 0;
+    font-size: 14px;
+    line-height: 1.4em;
+    margin-bottom: 1em;
+}
+
+input, input:hover, input:focus, input:active,
+button, button:hover, button:focus, button:active {
+	outline: none;
+	border: none;
+}
+
+input:invalid {
+    box-shadow: none;
+}
+
+a, a:hover, a:active {
+	text-decoration: none;
+}
+
+a, button {
+	transition: all 0.5s ease;
+}
+
+.form,
+.teacher,
+.money,
+.card {
+	box-shadow: 0 0 50px rgba(0, 0, 0, 0.23);
+}
+
+.card:hover {
+	box-shadow: 0 0 50px rgba(0, 0, 0, 0.23), 0 6px 7px rgba(0, 0, 0, 0.2);
+}
+
+.form button:active {
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2) inset;
+	transition: all 0.2s ease;
+}
+
+.container {
+	width: 1140px;
+	margin: 0 auto;
+}
+
+.d-flex {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+
+.jc-space-between {
+	justify-content: space-between;
+}
+
+.jc-space-around {
+	justify-content: space-around;
+}
+
+.ai-center {
+	align-items: center;
+}
+
+.form {
+	width: 335px;
+	padding: 36px;
+	padding-bottom: 23px;
+	text-align: center;
+	background: #fff;
+	border-radius: 6px;
+}
+
+.form__wow {
+	width: 262px;
+	margin: 13px 0 15px;
+}
+
+.form input {
+	font-family: 'Roboto', sans-serif;
+	font-size: 13px;
+	width: 262px;
+	color: #bababa;
+	padding: 18px 0 12px;
+	border-bottom: 1px solid #bababa;
+}
+
+.form input:focus,
+.form input:hover {
+    color: #000;
+    padding: 18px 0 12px;
+    border-bottom: 1px solid #000;
+}
+
+.form button {
+	width: 262px;
+	font-size: 16px;
+	font-weight: 900;
+	color: #fff;
+	padding: 17px 0 21px;
+	margin: 30px 0 15px;
+	background: #4acc4d;
+	border: 1px solid #4acc4d;
+	border-radius: 6px;
+	cursor: pointer;
+}
+
+.form button:hover {
+	color: #4acc4d;
+	background: #fff;
+	border: 1px solid #4acc4d;
+}
+
+.form__protect {
+	font-size: 12px;
+	color: #adadad;
+}
+
+/* ---- Header ---- */
+
+.navigation {
+	font-size: 13px;
+	padding: 12px 0 22px;
+}
+
+.logo__icon {
+	width: 49px;
+	height: 49px;
+	border-radius: 5px;
+	background: #1b3bde;
+}
+
+.logo__icon i {
+	font-size: 25px;
+	color: #fff;
+	padding-top: 11px;
+	padding-left: 15px;
+	
+}
+
+.logo__content {
+    margin-top: 4px;
+    margin-left: 11px;
+    text-align: center;
+}
+
+.logo__text {
+	font-size: 14.55px;
+	font-weight: 900;
+	text-transform: uppercase;
+	color: #1b3bde;
+	margin: 0;
+}
+
+.logo__text_big {
+	font-size: 20.21px;
+	margin-top: -4px;
+}
+
+.nav {
+	width: 410px;
+	margin: 7px 257px 0 0;
+}
+
+.nav__list {
+	padding: 5px 0;
+	font-size: 13px;
+}
+
+.nav__item {
+	margin-right: 12px;
+}
+
+.nav__link {
+	display: block;
+	color: #2b2b2b;
+	padding: 6px 16px ;
+}
+
+.nav__link:hover {
+	color: #fff;
+	background: #000;
+	border-radius: 5px;
+}
+
+.tel__link {
+	font-size: 15px;
+	font-weight: 900;
+	color: #2b2b2b;
+}
+
+.tel__link:hover {
+	text-decoration: underline;
+}
+
+.tel i {
+	margin-right: 2px;
+}
+
+.prof {
+	padding: 90px 0 134px;
+	background: #f0f7f7 url('../img/bg_1.png') no-repeat center top / cover;
+	box-shadow: 0 -6px 9px rgba(0, 0, 0, 0.1);
+}
+
+.coder {
+	text-align: center;
+}
+
+.coder__m-class {
+	font-size: 16px;
+	font-weight: 300;
+}
+
+.coder__date {
+	width: 146px;
+	padding: 5px 0;
+	margin: 0 auto;
+	color: #fff;
+	background: #000;
+	border-radius: 3px;
+}
+
+/* ---- Promotion ---- */
+
+.promotion {
+	padding: 124px 0;
+}
+
+.know {
+	margin-bottom: 62px;
+}
+
+.teacher {
+	width: 470px;
+	color: #fff;
+	padding: 40px 0 46px 57px;
+	background: #9d6bdc;
+	border-radius: 6px;
+}
+
+.teacher__wrap {
+	margin-bottom: 18px;
+}
+
+.teacher__title {
+	font-size: 18px;
+	font-weight: 900;
+	margin-bottom: 12px;
+}
+
+.teacher p {
+	font-size: 15px;
+	margin: 12px 0 19px;
+}
+
+.statistics p,
+.question p {
+	margin-top: 20px;
+}
+
+.experien {
+	margin-left: 29px;
+}
+
+.sites__number,
+.experien__number {
+	font-size: 39px;
+	font-weight: 700;
+	margin-right: 15px;
+}
+
+.sites__text,
+.experien__text {
+	font-size: 13px;
+}
+
+.sites__text {
+	width: 82px;
+}
+
+.teacher__link {
+	font-weight: 900;
+	color: #fff;
+}
+
+.teacher__link:hover {
+	border-bottom: 1px solid #fff;
+}
+
+.statistics {
+	width: 447px;
+	margin-left: 93px;
+}
+
+.more {
+	justify-content: flex-end;
+}
+
+.question p {
+	width: 444px;
+}
+
+.money {
+	width: 470px;
+	text-align: center;
+	padding: 95px 0 95px;
+	margin-left: 100px;
+	background: #f6e23a;
+	border-radius: 6px;
+}
+
+.money__number {
+	font-size: 43px;
+	font-weight: 900;
+}
+
+.money__month {
+	font-size: 21px;
+}
+
+/* ---- Success ---- */
+
+.success {
+	padding: 100px 0 94px;
+	background: #f0f7f7 url('../img/bg_1.png') no-repeat center top / cover;
+}
+
+.advantages {
+	margin-top: 76px;
+}
+
+.reason {
+	width: 342px;
+}
+
+.reason__icon {
+	width: 80px;
+	height: 80px;
+	padding-top: 24px;
+	font-size: 26px;
+	font-weight: 900;
+	text-align: center;
+	color: #fff;
+	background: #1b3bde;
+	border-radius: 6px;
+}
+
+.reason__content {
+	width: 225px;
+	margin: 20px 0 0 30px;
+}
+
+.reason__title {
+	color: #2f4be0;
+	margin-bottom: 13px;
+}
+
+/* ---- If ---- */
+
+.if {
+	padding: 83px 0 100px;
+}
+
+.you {
+	margin-top: 70px;
+}
+
+.card {
+	width: 346px;
+	padding: 65px 0 61px;
+	text-align: center;
+	color: #fff;
+	background: #4acc4d;
+	border-radius: 6px;
+}
+
+.card_color-2 {
+	background: #4ac7cc;
+}
+
+.card_color-3 {
+	background: #dc6b83;
+}
+
+.card i {
+	font-size: 42px;
+}
+
+.card__text {
+	width: 270px;
+	font-size: 19px;
+	font-weight: 900;
+	margin: 15px auto 0;
+}
+
+/* ---- Armor ---- */
+
+.armor {
+	padding: 102px  0 105px;
+	background: #f0f7f7 url('../img/bg_2.png') no-repeat center top / cover;
+}
+
+.opportunity {
+	width: 580px;
+	color: #fff;
+	text-align: center;
+}
+
+.opportunity__m-class {
+	font-size: 16px;
+	font-weight: 300;
+}
+
+.opportunity h2 {
+	margin: 34px 0 26px;
+}
+
+.m-class-info {
+	width: 270px;
+	margin:0 auto;
+}
+
+/* ---- Footer ---- */
+
+.footer {
+	padding: 23px 0;
+}
+
+.copyright {
+	font-size: 12px;
+}
