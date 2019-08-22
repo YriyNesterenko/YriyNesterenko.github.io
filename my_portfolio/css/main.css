@@ -344,8 +344,8 @@ a,
 .connect__icon {
 	font-family: 'Stroke-Gap-Icons';
 	font-size: 25px;
-	width: 63px;
-	height: 63px;
+	width: 90px;
+	height: 90px;
 	padding-top: 14px;
 	text-align: center;
 	color: #204d15;
@@ -357,7 +357,7 @@ a,
 	font-family: 'Museo Sans 300', sans-serif;
 	font-size: 14px;
 	font-style: italic;
-	margin-top: 20px;
+	margin-top: 33px;
 	margin-left: 20px;
 	color: #797a77;
 }
@@ -613,6 +613,10 @@ button [type=button]:before {
 		font-size: 14px;
 	}
 
+	.connect__text {
+		margin-left: 10px;
+	}
+
 }
 
 /* 576-768px */
@@ -696,6 +700,10 @@ button [type=button]:before {
 	.connect h3 {
 		text-align: center;
 		margin-bottom: 40px;
+	}
+
+	.work {
+		padding-top: 0;
 	}
 
 	.work h2 {
@@ -789,10 +797,6 @@ button [type=button]:before {
 		text-align: center;
 	}
 
-	.merit h5 {
-		font-size: 11px;
-	}
-
 	.merit__item {
 		margin-bottom: 60px;
 	}
@@ -853,5 +857,9 @@ button [type=button]:before {
 
 	.footer {
 		padding: 60px 0 60px;
+	}
+
+	.copyright {
+		font-size: 10px;
 	}
 }
