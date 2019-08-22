@@ -702,6 +702,10 @@ button [type=button]:before {
 		margin-bottom: 40px;
 	}
 
+	.connect__link  {
+		font-size: 16px;
+	}
+
 	.work {
 		padding-top: 0;
 	}
@@ -799,6 +803,10 @@ button [type=button]:before {
 
 	.merit__item {
 		margin-bottom: 60px;
+	}
+
+	.merit h5 {
+		font-size: 14px;
 	}
 
 	.connect {
