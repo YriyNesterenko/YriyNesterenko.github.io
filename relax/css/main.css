@@ -45,8 +45,7 @@ button:focus {
 	outline: none;
 }
 
-a,
-button,
+a,button,
 .offer__icon {
 	transition: all 0.5s ease;
 }
@@ -208,7 +207,7 @@ button,
 	background: url('../img/bg-header.jpg')no-repeat center center;
 }
 
-.logo__link:before {
+.logo:before {
 	content: "";
 	display: inline-block;
 	width: 30px;
@@ -216,6 +215,9 @@ button,
 	margin-right: 2px;
 	margin-bottom: -7px;
 	border-radius: 50%;
+}
+
+.logo_header:before {
 	background: rgba(106,195,103,0.85);
 }
 
@@ -234,13 +236,12 @@ button,
 	text-transform: uppercase;
 	font-weight: 700;
 	letter-spacing: 0.4em;
-	margin-left: 48px;
+	margin-left: 41px;
 	margin-top: 5px;
 	display: block;
 }
 
 .nav__link {
-	display: block;
 	font-size: 17px;
 	color: #fff;
 	padding: 3px 16px 4px;
@@ -276,20 +277,19 @@ button,
 }
 
 .offer {
-	padding-top: 28vh;
+	margin-top: 28vh;
 }
 
 .offer__text {
 	color: #fff;
 	font-size: 26px;
 	margin-left: 2px;
-	margin-bottom: 40px;
 }
 
 .offer__icons-border {
 	width: 172px;
 	height: 50px;
-	margin-bottom: 10vh;
+	margin-top: 40px;
 	background: rgba(255,255,255,0.6);
 	border-radius: 10px;
 	position: relative;
@@ -306,8 +306,7 @@ button,
 	right: 3px;
 }
 
-.offer__link {
-	display: inline-block;
+.offer__icon {
 	font-size: 16.67px;
 	width: 28px;
 	height: 28px;
@@ -315,32 +314,32 @@ button,
 	align-items: center;
 }
 
-.offer__link_fb {
+.offer__icon_fb {
 	color: #3d6ca8;
 	border: 2px solid #3d6ca8;
 }
 
-.offer__link_tw {
+.offer__icon_tw {
 	color: #43c9fd;
 	border: 2px solid #43c9fd;
 }
 
-.offer__link_tg {
+.offer__icon_tg {
 	color: #25a3d4;
 	border: 2px solid #25a3d4;
 }
 
-.offer__link_fb:hover {
+.offer__icon_fb:hover {
 	background: #3d6ca8;
 	color: #fff;
 }
 
-.offer__link_tw:hover {
+.offer__icon_tw:hover {
 	background: #43c9fd;
 	color: #fff;
 }
 
-.offer__link_tg:hover {
+.offer__icon_tg:hover {
 	background: #25a3d4;
 	color: #fff;
 }
@@ -354,6 +353,7 @@ button,
 	align-items: center;
 	justify-content: center;
 	margin: 0 auto;
+	margin-top: 10vh;
 }
 
 .down i {
@@ -371,16 +371,9 @@ button,
 	padding: 40px 0;
 }
 
-.mb-1 {
-	margin-bottom: 50px;
-}
-
-.mb-2 {
-	margin-bottom: 35px;
-}
-
 .entertainment__title {
 	text-align: center;
+	margin-bottom: 50px;
 }
 
 .service {
@@ -391,7 +384,6 @@ button,
 	width: 200px;
 	height: 200px;
 	margin: 0 auto;
-	margin-bottom: 22px;
 	background: grey;
 	border-radius: 50%;
 }
@@ -409,17 +401,16 @@ button,
 }
 
 .service__title {
-	margin-bottom: 22px;
+	margin: 22px 0;
 }
 
 .btn__more {
-	display: block;
-	width: 190px;
 	text-align: center;
-	padding: 8px 0;
+	padding: 8px 25px;
 	margin: 0 auto;
 	border-radius: 50px;
 	font-size: 19px;
+	margin-top: 35px;
 	background: rgb(106,195,103);
 }
 
@@ -490,8 +481,7 @@ button,
 .details-fishing__info,
 .details-canoes__info,
 .details-horses__info {
-	padding: 35px;
-	padding-left: 90px;
+	padding: 35px 0 35px 100px;
 }
 
 /* Details-horses*/
@@ -539,7 +529,7 @@ button,
 	background: #345980;
 }
 
-.logo__link:before {
+.logo_footer:before {
 	background: rgb(106,195,103);
 }
 
@@ -775,6 +765,10 @@ input:focus {
 
 @media screen and (min-width: 1200px) {
 
+	.container {
+		max-width: 90%;
+	}
+
 	.details-fishing__img {
 		background-position: right;
 	}
@@ -847,30 +841,19 @@ input:focus {
 		font-size: 24px;
 	}
 
-	.logo__link:before {
-		width: 25px;
-		height: 25px;
-		margin-right: -4px;
-		margin-bottom: -1px;
-	}
-
-	.logo__link span {
-		margin-left: 37px;
-	}
-
 	.details-fishing__img {
 		height: 280px;
-		background-position: center center;
+		background-position: left center;
 	}
 
 	.details-canoes__img {
 		height: 280px;
-		background-position: center -198px;
+		background-position: -106px -196px;
 	}
 
 	.details-horses__img {
 		height: 280px;
-		background-position: center -20px;
+		background-position: left top;
 	}
 
 	.details-fishing__info,
@@ -920,8 +903,11 @@ input:focus {
 		font-size: 21px;
 	}
 
-	.logo__link:before {
-		margin-bottom: -6px;
+	.logo:before {
+		width: 25px;
+		height: 25px;
+		margin-right: 0;
+		margin-bottom: -1px;
 	}
 
 	.logo__link {
@@ -966,6 +952,21 @@ input:focus {
 	.details-horses__item,
 	.restaurant__item {
 		font-size: 17px;
+	}
+
+	.details-fishing__img {
+		height: 240px;
+		background-position: -193px center;
+	}
+
+	.details-canoes__img {
+		height: 240px;
+		background-position: -143px -220px;
+	}
+
+	.details-horses__img {
+		height: 240px;
+		background-position: -145px -24px;
 	}
 
 	.restaurant__circle {
