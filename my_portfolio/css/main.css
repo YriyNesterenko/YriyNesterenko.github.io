@@ -769,7 +769,8 @@ button [type=button]:before {
 	}
 
 	.header__matter {
-		font-size: 19px;
+		font-size: 15px;
+		margin-top: 30px;
 		margin-bottom: 100px;
 	}
 
