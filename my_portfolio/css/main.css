@@ -373,6 +373,10 @@ a,
 	margin-bottom: 56px;
 }
 
+.skill__list {
+	margin-bottom: 50px;
+}
+
 .skill__item {
 	width: 206px;
 }
@@ -406,6 +410,15 @@ a,
 	margin-left: 2px;
 }
 
+ .skill__icon_jquery {
+	width: 25px;
+	height: 25px;
+	margin-left: 20px;
+    margin-top: -1px;
+	background: url(../img/jq-icon.png)no-repeat;
+    background-size: 20px;
+}
+
  .skill__icon_bootstrap {
 	width: 25px;
 	height: 25px;
@@ -415,13 +428,21 @@ a,
     background-size: 20px;
 }
 
+ .skill__icon_flex {
+	width: 26px;
+	height: 26px;
+	margin-left: 17px;
+    margin-top: -1px;
+	background: url(../img/flex.png)no-repeat;
+    background-size: contain;
+}
+
 .skill__text {
 	font-family: 'Museo Sans 900', sans-serif;
 	font-size: 15px;
-	text-transform: uppercase;
 	letter-spacing: 0.1em;
 	color: #4b4c47;
-	margin-left: 25px;
+	margin-left: 23px;
 }
 
 /* ----- Work ----- */
@@ -684,7 +705,7 @@ button [type=button]:before {
 	}
 
 	.skill__item {
-		margin-bottom: 20px;
+		margin-bottom: 30px;
 	}
 
 	.skill h2 {
