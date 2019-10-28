@@ -832,6 +832,10 @@ button [type=button]:before {
 		flex-direction: column;
 		align-items: center;
 	}
+	
+	.skill__item {
+	    margin-bottom: 30px;
+	}
 
 	.about__bg h3,
 	.merit h3,
