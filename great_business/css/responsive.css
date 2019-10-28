@@ -511,5 +511,13 @@
 	.footer {
 	    padding: 60px 0;
 	}
+	
+	.footer__link {
+	    font-size: 15px;
+	}
+	
+	.footer__item {
+	    margin-bottom: 10px;
+	}
 
 }
