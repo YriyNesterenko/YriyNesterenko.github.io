@@ -187,7 +187,7 @@ a,
 }
 
 .nav__link:hover {
-	color: #c4c589;
+	color: #b0b0ae;
 }
 
 .info__link {
@@ -197,12 +197,12 @@ a,
 	color: #fff;
 	text-transform: none;
 	padding-bottom: 2px;
-	border-bottom: 1px solid #666863;
+	border-bottom: 1px solid #fff;
 }
 
 .info__link:hover {
-	color: #c4c589;
-	border-bottom: 1px solid #666863;
+	color: #b0b0ae;
+	border-bottom: 1px solid #b0b0ae;
 }
 
 .header__offer {
@@ -234,8 +234,8 @@ a,
 
 .arrow:hover {
 	color: #000;
-	border: 1px solid #c4c589;
-	background: #c4c589;
+	border: 1px solid #b0b0ae;
+	background: #b0b0ae;
 }
 
 /* ----- About ----- */
