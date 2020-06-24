@@ -1,0 +1,39 @@
+/* ----- Doing ----- */
+
+.doing {
+	padding: 90px 0 81px;
+}
+
+.doing__title {
+	width: 256px;
+	margin: 0 auto 82px;
+}
+
+.jobs {
+	justify-content: space-around;
+}
+
+.job {
+	width: 275px;
+	text-align: center;
+}
+
+.job-left {
+	margin-right: 115px;
+}
+
+.job-right {
+	margin-left: 115px;
+}
+
+.job__img {
+	margin-bottom: 20px;
+}
+
+.job__title {
+	margin-bottom: 20px;
+}
+
+.job__paragraph {
+	line-height: 1.5em;
+}

@@ -1,0 +1,126 @@
+/* ----- Header ----- */
+
+.header {
+	padding: 32px 0 50px;
+	background: url(../img/header-bg.jpg) no-repeat center center / cover;
+}
+
+.header__wrap {
+	width: 1436px;
+	margin: 0 auto;
+}
+
+.top-header {
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 190px;
+	position: relative;
+}
+
+.logo {
+	align-items: center;
+}
+
+.logo_header {
+	margin-top: 8px;
+    margin-left: -6px;
+}
+
+.logo__picture {
+	display: block;
+}
+
+.top-header:after {
+	content: "";
+	display: block;
+	width: 60px;
+	height: 2px;
+	background: #fff;
+	position: absolute;
+	top: 99px;
+	left: 54px;
+}
+
+.logo__text-top {
+	font-family: "Jura";
+	font-weight: bold;
+	font-size: 21px;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.logo__text-down {
+	font-family: "Jura";
+	font-size: 12px;
+	letter-spacing: 0.745em;
+	text-transform: uppercase;
+	color: #fff;
+	margin-left: 2px;
+}
+
+.nav__item {
+	margin-right: 65px;
+}
+
+.nav__item:last-child {
+	margin-right: 0;
+}
+
+.nav__link {
+	font-family: "Open Sans", sans-serif;
+	font-size: 19px;
+	color: #fff;
+}
+
+.number {
+	font-family: "Open Sans", sans-serif;
+	font-size: 19px;
+	letter-spacing: 0.05em;
+	color: #fff;
+}
+
+.number i {
+	font-size: 16px;
+	color: #fff;
+	margin-top: 2px;
+	margin-right: 5px;
+}
+
+.offer {
+	justify-content: space-around;
+	align-items: center;
+}
+
+.offer__main {
+	width: 680px;
+}
+
+.offer__title {
+	font-family: "Montserrat Alternates";
+	font-weight: 500;
+	font-size: 60px;
+	text-transform: uppercase;
+	color: #fff;
+	margin-bottom: 36px;
+}
+
+.offer__text {
+	font-size: 20px;
+	color: #fff;
+	line-height: 2em;
+	letter-spacing: 0.022em;
+	margin-bottom: 52px;
+}
+
+.offer__btn {
+	width: 237px;
+	margin-bottom: 213px;
+}
+
+.offer__slogan {
+	font-family: "Poiret One";
+	font-size: 27px;
+	letter-spacing: 0.21em;
+	color: #fff;
+}

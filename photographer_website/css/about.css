@@ -1,0 +1,58 @@
+/* ----- About ----- */
+
+.me {
+	justify-content: space-between;
+	align-items: center;
+	background: #E8EFFC;
+}
+
+.me-cont {
+	margin-left: 152px;
+}
+
+.me-cont__title {
+	position: relative;
+	margin-bottom: 65px;
+}
+
+.me-cont__title:after {
+	content: "";
+	display: block;
+	width: 60px;
+	height: 2px;
+	background: #000;
+	position: absolute;
+	top: 80px;
+	left: 3px;
+}
+
+.me-cont__item {
+	font-size: 17px;
+	font-weight: 600;
+	padding: 25px 0 25px 58px;
+}
+
+.me-cont__item_tent {
+	background: url(../img/tent.png)no-repeat left center;
+}
+
+.me-cont__item_bonfire {
+	background: url(../img/bonfire.png)no-repeat left center;
+}
+
+.me-cont__item_sportsman {
+	background: url(../img/sportsman.png)no-repeat left center;
+}
+
+.me-cont__item_dynamic {
+	background: url(../img/dynamic.png)no-repeat left center;
+}
+
+.me-cont__item_duck {
+	background: url(../img/duck.png)no-repeat left center;
+}
+
+.me-foto img {
+	display: block;
+	height: 100%;
+}

@@ -1,0 +1,94 @@
+/* ----- Footer ----- */
+
+.footer {
+	padding: 80px 0 120px;
+	letter-spacing: 0.05em;
+	background: #1E2430;
+}
+
+.footer__wrap {
+	width: 1436px;
+	margin: 0 auto;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.logo_footer {
+    margin: -6px 145px 0 -6px;
+}
+
+.social {
+	margin-left: 145px;
+}
+
+.copy__text,
+.contacts__title,
+.contacts__number i,
+.contacts__mail i,
+.contacts__link,
+.social__title  {
+	color: #fff;
+}
+
+.copy__text,
+.contacts__number {
+	line-height: 1.5em;
+}
+
+.contacts__title,
+.social__title {
+	position: relative;
+	margin-bottom: 38px;
+}
+
+.contacts__title:after,
+.social__title:after {
+	content: "";
+	height: 2px;
+	width: 116px;
+	background: #fff;
+	position: absolute;
+	top: 25px;
+	left: 0;
+}
+
+.contacts__number {
+	margin-bottom: 14px;
+}
+
+.contacts__number i {
+	font-size: 16px;
+    margin-top: 4px;
+    margin-right: 8px;
+	transition: all 0.5s ease;
+}
+
+.contacts__mail i {
+	font-size: 17px;
+    margin-top: 2px;
+    margin-right: 8px;
+}
+
+.contacts__link:hover {
+	text-decoration: underline;
+}
+
+.social__title:after {
+	width: 100px;
+}
+
+.social__icon {
+	font-size: 27px;
+	color: #fff;
+	margin-right: 10px;
+}
+
+.social__icon:last-child {
+	margin-right: 0;
+}
+
+.fa-facebook-square:hover,
+.fa-instagram:hover,
+.fa-vk:hover {
+	color: #b2b3b3;
+}

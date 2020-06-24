@@ -1,0 +1,48 @@
+/* ----- Hover-border ----- */
+
+.nav__link,
+.number {
+    position: relative;
+}
+
+.nav__link:before,
+.number:before {
+	display: block;
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 0;
+    background: #FCFCFC;
+    transition: width 0.3s ease-in-out, left 0.3s ease-in-out;
+    left: 50%;
+    bottom: -3px;
+}
+
+.nav__link:after,
+.number:after {
+	display: block;
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 0;
+    background-color: #FCFCFC;
+    transition: width 0.3s ease-in-out;
+    left: 50%;
+    bottom: -3px;
+}
+
+.nav__link:hover,
+.number:hover {
+	color: #FCFCFC;
+}
+
+.nav__link:hover:before,
+.number:hover:before {
+	width: 50%;
+    left: 0;
+}
+
+.nav__link:hover:after,
+.number:hover:after {
+	width: 50%;
+}
