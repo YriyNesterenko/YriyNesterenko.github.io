@@ -1,0 +1,623 @@
+/* ----- Responsive ----- */
+
+/* 1200px-< */
+
+@media screen and (max-width: 1600px) {
+
+	.container {
+		width: 1120px;
+	}
+
+	.header__wrap {
+		width: 100%;
+	}
+
+	.jobs {
+	    justify-content: space-between;
+	}
+
+	.job-left {
+		margin-right: 0;
+	}
+
+	.job-right {
+		margin-left: 0;
+	}
+
+	.me-cont {
+	    margin-left: 64px;
+	}
+
+	.me-cont__title {
+		margin-bottom: 45px;
+	}
+
+	.me-cont__title:after {
+		top: 68px;
+	}
+
+	.me-cont__item {
+		padding-bottom: 20px;
+	}
+
+	.me-foto img {
+		width: 530px;
+	}
+
+	.separator {
+		width: 100%;
+	}
+
+	.works-photo__slider {
+		width: 1117px;
+	}
+
+	.works-photo__slider .slick-prev {
+		top: 101px;
+		left: -42px;
+	}
+
+	.works-photo__slider .slick-next {
+		top: 101px;
+		right: -15px;
+	}
+
+	.works-photo__slider .slick-next i,
+	.works-photo__slider .slick-prev i {
+		padding: 16px;
+	}
+
+	.works-video__slider {
+		width: 992px;
+	}
+
+	.works-video__slider .slick-prev i,
+	.works-video__slider .slick-next i {
+		height: 287px;
+	}
+
+	.works-video__slider .slick-prev i:before,
+	.works-video__slider .slick-next i:before {
+		margin-top: 138px;
+	}
+
+	.footer__wrap {
+		width: 1120px;
+		flex-direction: column;
+	}
+
+	.footer__g-left,
+	.footer__g-right {
+		width: 100%;
+		justify-content: space-around;
+	}
+
+	.footer__g-left {
+		margin-bottom: 80px;
+	}
+
+	.logo_footer {
+	    margin-right: 0;
+	}
+
+	.social {
+		margin-left: 0;
+	}
+
+}
+
+/* 992-1200px */
+
+@media screen and (max-width: 1199px) {
+
+	.container {
+		width: 930px;
+	}
+
+	.nav__item {
+	    margin-right: 42px;
+	}
+
+	.top-header {
+		margin-bottom: 130px;
+	}
+
+	.offer {
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.offer__main {
+		order: 2;
+	}
+
+	.offer__btn {
+		margin: 0 auto 213px;
+	}
+
+	.offer__slogan {
+		order: 1;
+		margin-top: 0;
+		margin-bottom: 100px;
+	}
+
+	.jobs {
+		flex-direction: column;
+	}
+
+	.jobs__g-left,
+	.jobs__g-right {
+		justify-content: space-around;
+	}
+
+	.jobs__g-left {
+		margin-bottom: 70px;
+	}
+
+	.me-cont {
+	    margin-left: 60px;
+	}
+
+	.me-cont__title {
+	    margin-bottom: 20px;
+	}
+
+	.me-cont__title:after {
+	    top: 57px;
+	}
+
+	.me-cont__list {
+		width: 369px;
+    	margin-right: 20px;
+	}
+
+	.me-cont__item {
+		font-size: 16px;
+	    padding-bottom: 10px;
+	}
+
+	.works-photo__slider {
+		width: 931px;
+	}
+
+	.works-photo__slider .slick-prev {
+	    top: 81px;
+	    left: -34px;
+	}
+
+	.works-photo__slider .slick-next {
+	    top: 81px;
+	    right: -12px;
+	}
+
+	.works-video__slider {
+	    width: 823px;
+	}
+
+	.works-video__slider .slick-prev i,
+	.works-video__slider .slick-next i {
+		width: 52px;
+		height: 238px;
+	}
+
+	.works-video__slider .slick-prev {
+		left: -55px;
+	}
+
+	.works-video__slider .slick-prev i:before,
+	.works-video__slider .slick-next i:before {
+		margin-top: 110px;
+	}
+
+	.footer__wrap {
+		width: 930px;
+	}
+
+}
+
+/* 768-992px */
+
+@media screen and (max-width: 991px) {
+
+	.container {
+		width: 700px;
+	}
+
+	.top-header:after {
+		left: 333px;
+	}
+
+	.nav {
+		display: none;
+	}
+
+	.me {
+		overflow: hidden;
+	}
+
+	.me-cont {
+	    margin-left: 34px;
+	}
+
+	.me-cont__list {
+		width: 345px;
+	}
+
+	.works-photo__slider {
+	    width: 699px;
+	}
+
+	.works-photo__slider .slick-prev,
+	.works-photo__slider .slick-next {
+		top: 59px;
+	}
+
+	.works__btn {
+		width: 230px;
+	}
+
+	.works-video__slider {
+		width: 612px;
+	}
+
+	.works-video__slider .slick-prev {
+	    left: -45px;
+	}
+
+	.works-video__slider .slick-prev i,
+	.works-video__slider .slick-next i {
+		width: 42px;
+		height: 177px;
+	}
+
+	.works-video__slider .slick-prev i:before,
+	.works-video__slider .slick-next i:before {
+		font-size: 19px;
+		margin-top: 80px;
+	}
+
+	.fa-angle-left:before,
+	.fa-angle-right:before {
+		font-size: 19px;
+	}
+
+	.btn {
+		font-size: 18px;
+		height: 48px;
+		padding-top: 14px;
+	}
+
+	.footer__wrap {
+	    width: 699px;
+	}
+
+}
+
+/* 576-768px */
+
+@media screen and (max-width: 767px) {
+
+	.container {
+		width: 520px;
+	}
+
+	.top-header:after {
+		left: 237px;
+	}
+
+	.offer__main {
+		width: 520px;
+	}
+
+	.doing__title {
+		margin-bottom: 60px;
+	}
+
+	.jobs__g-left {
+		margin-bottom: 60px;
+	}
+
+	.job {
+		width: 224px;
+	}
+
+	.job__paragraph {
+		font-size: 19px;
+	}
+
+	.me {
+		flex-direction: column;
+		padding: 90px 0 80px;
+	}
+
+	.me-cont {
+		order: 2;
+	}
+
+	.me-cont__title {
+		width: 131px;
+		margin: 0 auto 20px;
+	}
+
+	.me-cont__title:after {
+		left: 34px;
+	}
+
+	.me-cont__item {
+		padding-bottom: 20px;
+	}
+
+	.me-foto {
+		order: 1;
+		margin-bottom: 40px;
+	}
+
+	.works-photo__slider {
+		width: 516px;
+	}
+
+	.works-photo__slider .slick-prev,
+	.works-photo__slider .slick-next {
+	    top: 74px;
+	}
+
+	.works-photo__slider .slick-prev {
+		left: -25px;
+	}
+
+	.works-photo__slider .slick-next {
+		right: -17px;
+	}
+
+	.works-photo__slider .slick-next i,
+	.works-photo__slider .slick-prev i {
+		padding: 10px;
+	}
+
+	.works-video__slider {
+	    width: 431px;
+	}
+
+	.works-video__slider .slick-prev i,
+	.works-video__slider .slick-next i {
+	    height: 188px;
+	}
+
+	.works-video__slider .slick-prev i:before,
+	.works-video__slider .slick-next i:before {
+		margin-top: 86px;
+	}
+
+	.footer__wrap {
+	    width: 515px;
+	}
+
+	.logo_footer,
+	.contacts__title,
+	.contacts__number,
+	.contacts__mail,
+	.social__title,
+	.social__icons {
+		margin: 0 auto;
+	}
+
+	.logo_footer {
+		margin-bottom: 30px;
+	}
+
+	.footer__g-left,
+	.footer__g-right {
+		flex-direction: column;
+	}
+
+	.copy__text {
+		text-align: center;
+	}
+
+	.contacts__title {
+		width: 120px;
+		margin-bottom: 22px;
+	}
+
+	.contacts {
+		margin-bottom: 80px;
+	}
+
+	.contacts__number {
+		width: 207px;
+	}
+
+	.contacts__mail {
+		width: 300px;
+	}
+
+	.social__title {
+		width: 103px;
+		margin-bottom: 22px;
+	}
+
+	.social__icons {
+		width: 122px;
+	}
+
+}
+
+/* 320-576px */
+
+@media screen and (max-width: 575px) {
+
+	.container {
+		width: 90%;
+	}
+
+	.top-header {
+		flex-direction: column;
+	}
+
+	.logo_header {
+		margin-bottom: 25px;
+	}
+
+	.top-header {
+		margin-bottom: 60px;
+	}
+
+	.top-header:after {
+		display: none;
+	}
+
+	.number {
+		display: none;
+	}
+
+	.offer__main {
+		width: 100%;
+	}
+
+	.offer__title {
+		font-size: 48px;
+		margin-bottom: 45px;
+	}
+
+	.offer__text {
+	    font-size: 18px;
+	    margin-bottom: 70px;
+	}
+
+	.jobs {
+		align-items: center;
+	}
+
+	.jobs__g-left,
+	.jobs__g-right {
+		flex-direction: column;
+	}
+
+	.job {
+		width: 275px;
+	}
+
+	.job-left {
+		margin-bottom: 60px;
+	}
+
+	.job-right {
+		margin-top: 60px;
+	}
+
+	.me-foto img {
+		width: 85%;
+    	margin: 0 auto;
+	}
+
+	.me-cont {
+		margin-left: 0;
+	}
+
+	.me-cont__list {
+		width: 82%;
+		margin-left: 26px;
+	}
+
+	.separator {
+		margin-bottom: 30px;
+	}
+
+	.works-photo__slider,
+	.works-video__slider {
+		width: 100%;
+		margin-bottom: 100px;
+	}
+
+	.works-photo__slide {
+		margin-left: 2px;
+		margin-right: 2px;
+	}
+
+	.works-photo__slider .slick-prev {
+	    top: 113%;
+		left: 27%;
+	}
+
+	.works-photo__slider .slick-next {
+		top: 113.2%;
+	    right: 28%;
+	}
+
+	.works-photo__slider .slick-next i,
+	.works-photo__slider .slick-prev i {
+	    padding: 8px;
+	}
+
+	.works-video__slide {
+		margin-left: 2px;
+		margin-right: 2px;
+	}
+
+	.works-video__img {
+		border-radius: 12px;
+	}
+
+	.works-video__slider .slick-prev {
+		top: 110%;
+	    left: 27%;
+	}
+
+	.works-video__slider .slick-next {
+		top: 110.2%;
+		right: 28%;
+	}
+
+	.works-video__slider .slick-prev i,
+	.works-video__slider .slick-next i {
+	    width: 32px;
+	    height: 197px;
+	}
+
+	.works-video__slider .slick-prev i,
+	.works-video__slider .slick-next i {
+	    width: 28px;
+	    height: 28px;
+	    border-radius: 20px 20px 20px 20px;
+	}
+
+	.works-video__slider .slick-prev i:before,
+	.works-video__slider .slick-next i:before {
+		margin-top: 5px;
+		margin-left: 2px;
+	}
+
+	.works-video__slider .slick-prev i:before {
+		margin-left: -1px;
+	}
+
+	.footer__wrap {
+		width: 100%;
+	}
+
+	.copy__text,
+	.contacts__link {
+		font-size: 15px;
+	}
+
+	.contacts__number {
+	    width: 171px;
+	}
+
+	.contacts__mail {
+	    width: 243px;
+	}
+
+	.contacts__number i {
+	    font-size: 12px;
+	    margin-top: 8px;
+	    margin-right: 4px;
+	}
+
+	.contacts__mail i {
+	    font-size: 14px;
+	    margin-top: 3px;
+	    margin-right: 4px;
+	}
+
+}
