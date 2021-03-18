@@ -872,7 +872,7 @@ input:focus {
 	}
 
 	.logo_footer {
-		width: 208px;
+		width: 344px;
 		margin: 0 auto;
 	}
 
@@ -882,7 +882,7 @@ input:focus {
 	}
 
 	.btn__call_footer {
-		margin: -54px auto 37px;
+		margin: -68px auto 37px;
 	}
 }
 
