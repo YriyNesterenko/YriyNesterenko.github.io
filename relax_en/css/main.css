@@ -909,7 +909,7 @@ input:focus {
 	.logo:before {
 		width: 20px;
 		height: 20px;
-		margin-right: -2px;
+		margin-right: 0;
 		margin-bottom: -4px;
 	}
 
@@ -1008,7 +1008,7 @@ input:focus {
 	}
 
 	.logo_footer  {
-		width: 156px;
+		width: 158px;
 	}
 
 	.form-modal {
