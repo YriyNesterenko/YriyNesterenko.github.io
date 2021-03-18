@@ -872,7 +872,7 @@ input:focus {
 	}
 
 	.logo_footer {
-		width: 154px;
+		width: 208px;
 		margin: 0 auto;
 	}
 
@@ -907,19 +907,20 @@ input:focus {
 	}
 
 	.logo:before {
-		width: 25px;
-		height: 25px;
-		margin-right: 0;
-		margin-bottom: -1px;
+		width: 20px;
+		height: 20px;
+		margin-right: -2px;
+		margin-bottom: 1px;
 	}
 
 	.logo__link {
-		font-size: 34px;
+		font-size: 33px;
+		letter-spacing: 0.264em;
 	}
 
 	.logo__link span {
 		font-size: 7px;
-		margin-left: 34px;
+		margin-left: 26px;
 	}
 
 	.offer {
@@ -1004,6 +1005,10 @@ input:focus {
 		line-height: 1.4em;
 		width: 90%;
 		margin: 0 auto;
+	}
+
+	.logo_footer  {
+		width: 156px;
 	}
 
 	.form-modal {
