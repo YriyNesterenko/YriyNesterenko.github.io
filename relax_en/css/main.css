@@ -910,7 +910,7 @@ input:focus {
 		width: 20px;
 		height: 20px;
 		margin-right: -2px;
-		margin-bottom: 1px;
+		margin-bottom: -4px;
 	}
 
 	.logo__link {
