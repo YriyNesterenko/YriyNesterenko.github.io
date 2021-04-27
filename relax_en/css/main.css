@@ -527,7 +527,7 @@ a,button,
 /*Footer*/
 
 .footer {
-	padding: 50px 0;
+	padding: 36px 0;
 	background: #345980;
 }
 
@@ -872,7 +872,7 @@ input:focus {
 	}
 
 	.logo_footer {
-		width: 344px;
+		width: 208px;
 		margin: 0 auto;
 	}
 
@@ -882,7 +882,7 @@ input:focus {
 	}
 
 	.btn__call_footer {
-		margin: -68px auto 37px;
+		margin: -54px auto 37px;
 	}
 }
 
@@ -983,6 +983,10 @@ input:focus {
 		margin: 0 auto;
 	}
 
+	.logo_footer  {
+		width: 158px;
+	}
+
 	.box-modal {
 		width: 90%;
 		margin: 0 auto;
@@ -1005,10 +1009,6 @@ input:focus {
 		line-height: 1.4em;
 		width: 90%;
 		margin: 0 auto;
-	}
-
-	.logo_footer  {
-		width: 158px;
 	}
 
 	.form-modal {
